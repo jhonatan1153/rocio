@@ -13,9 +13,8 @@
   }
 
   .superior{
-    background-position: auto;
-    margin: 85px auto;
-    padding: 80px 30px;
+    background: rgb(54, 120, 196);
+    padding: 40px 30px;
   }
 
   div.btn-group .button {
@@ -25,6 +24,12 @@
   }
   a.img{
     display: none;
+  }
+  div.slider{
+    padding: auto;
+    margin: auto ;
+    height: 100%;
+    width: 100%;
   }
   
 
@@ -45,7 +50,7 @@
 
 .superior{
     background: rgb(54, 120, 196);
-    margin: 0;
+    
     
     
 }
