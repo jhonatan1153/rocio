@@ -2,84 +2,153 @@
     <head>
 
 <style>
-.color{
 
-background-position: center;
-width: 500px;
-margin: 85px 450px;
+@media only screen and (min-width: 200px) {
+    .color{
+        background-position: auto;
+        margin: 85px auto;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .color{
+        background-position: auto;
+        margin: 85px 450px;
+    }
+}
+
+.color{
+background-position: auto;
+margin: 0;
+padding: 30px 45px;
+
 }
 .fondo{
     background: #007bff;
-    width: 500px;
     height: 40px;
+    width: auto;
+}
+.table {
+    border: 1px solid #007bff;
+
 }
 .letra{
-color:black;
-
-font-size: 23px;
+    color: #24292e!important;
+    
 }
-table {
-    border: 1px solid #007bff;
-  border-collapse: collapse;
-  width: 100%;
+.caja{
+    width: 250px;
+    height: auto;
+    padding: 3px 10px;
+  border: PowderBlue 1px solid;
+  border-radius: 5px;
+}
+.form-group {
+    margin: 15px auto;
+    text-align: center;
+
+}
+.nombre{
+    
+    margin-left: auto;
+    box-sizing: border-box;    
+}
+input:valid {
+  border: 1px solid green;
+}
+.cuadro{
+    border:black 1px solid ;
+    border-radius: 5px;
+}
+.button{
+    width: 120px; 
+    margin:0 auto;
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
-}
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+
 
 </style> 
 
             <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+
+    <script type="text/javascript">
+
+        function validar(){
+
+            var nombre,apellido,correo,pass;
+
+            nombre = document.getElementById("nombre").value;
+            apellido = document.getElementById("apellido").value;
+            correo = document.getElementById("correo").value;
+            pass = document.getElementById("pass").value;
+
+            if(nombre != "" && apellido != "" & correo != "" && pass != ""){
+
+               alert("los datos se validaron correctamente");
+            }
+        }
+     </script>
+
     <body>
         <div class="color">
-
-        <form action="asdas" method="POST">
-            <table class="table">
-
-                <div class="fondo"></div>
-                <tr>
-            
-                <td><div class="letra">nombre </div></td>
-                <td><div class="letra">apellido </div></td>
                 
-                </tr>
+        <form action="index.php" method="POST" accept-charset="UTF-8" onsubmit="return validar()" id="formulario" >
 
-                <tr>
+                <fieldset class="cuadro">
 
-                <td><input type="text" id="nombre"></td>
-                <td><input type="text" id="nombre"></td>
+                     
+                        <div class="fondo"></div>
+               
+                
 
-                </tr>
-
-                <tr>
-
-                <td><div class="letra">correo electronicos</div></td>
-                <td><div class="letra">contrasena</div></td>
-
-                </tr>
-
-                <tr>
-
-                <td><input type="text" id="nombre" style="width: auto;"></td>    
-                <td><input type="text" id="nombre"></td>
-
-                </tr>
-                <tr>
-                    <td colspan="2">
-                            <input type="submit" class="btn btn-primary" style=" width: 420px; margin: 2 20;">
-                    </td>
-                </tr>
-
-            </table>
-        
+                        <div class="form-group">
+                            <div class="letra"  cellspacing="0" cellpadding="0">nombre </div> 
+                            
+                        
+                        
+                        <input type="text" id="nombre" name="nombre" class="caja"   required>
+                        
+                        </div>
+                        
+                        
+                        <div class="form-group">    
+                        
+                            <div class="letra">apellido </div>
+                        
+                        <input type="text" id="apellido" name="apellido" class="caja"  required>
+                        
+                        </div>
+                        
+                        
+                        <div class="form-group"> 
+                        
+                        <div class="letra">correo electronicos</div>
+                        
+                        <input type="text" id="correo" name="correo" class="caja" required> 
+                        
+                         </div>
+                        
+                        
+                         <div class="form-group">
+                        
+                            <div class="letra">contrasena</div>
+                        
+                            <input type="text" id="pass" name="pass" class="caja" minlength="8" maxlength="12" required>
+                        
+                         </div>
+                    
+                      
+                         <div class="button">
+                                <input type="submit" class="btn btn-primary" style=" width: 120px; margin:0 auto;">
+                         </div>
+                         
+                    </fieldset>
+                  
             
         </form>
     </div>
     </body>
 </html>
+
