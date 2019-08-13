@@ -38,6 +38,14 @@
 .letra {
     color: #24292e!important;
 }
+.textarea{
+    width: 250px;
+    height: 100px;
+    padding: 3px 10px;
+    border: PowderBlue 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
 
 .caja {
     width: 250px;
