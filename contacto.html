@@ -36,22 +36,35 @@
 
 </body>
 <header class="contacto">
-
+      
 </header>
 <nav class="info">
 
 </nav>
 <footer class="inferior">
-
+    
         <div class="linea1"></div> 
-        
-        <legend>donde estamos ubicados</legend>
-        <fieldset class="cuadros">
-            
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d823.2619305829578!2d-76.5102534835515!3d3.40547524355236!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6d316a87143%3A0xacc79887f9fcebe8!2sCra.+43+%234559%2C+Cali%2C+Valle+del+Cauca!5e1!3m2!1ses-419!2sco!4v1565707999511!5m2!1ses-419!2sco" width="280" height="300" frameborder="0" style="border:0; position: absolute;" allowfullscreen></iframe>
-        </fieldset>
-        <div class="linea2"></div> 
 
+        <div class="ubicacion">
+        
+        <label >donde estamos ubicados</label>
+        
+        <img src="public/images/phone.png" class="phone"><label class="nomphone" >donde estamos ubicados</label>
+        
+        </br></br>
+        
+        <img src="public/images/ubication.png" class="location"><label class="nomlocation">donde estamos ubicados</label>
+        
+        </br></br>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d823.2619305829578!2d-76.5102534835515!3d3.40547524355236!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6d316a87143%3A0xacc79887f9fcebe8!2sCra.+43+%234559%2C+Cali%2C+Valle+del+Cauca!5e1!3m2!1ses-419!2sco!4v1565707999511!5m2!1ses-419!2sco" width="280" height="300" frameborder="0" style="border:0; position: absolute;" allowfullscreen></iframe>
+        
+        </div>
+        
+        
+        <div class="linea2"></div> 
+        
+      
     <div class="colores">
             
 
@@ -59,48 +72,53 @@
                     
                     <legend>Contactenos</legend>
 
-                <fieldset class="cuadros">
-                        
-    
-    
-                    <div class="form-groups">
-                            <label class="letras" cellspacing="0" cellpadding="0">primer nombre</label>
+              
+                    <fieldset class="cuadro">
 
-                            <input type="text" name="nombre" class="cajas" placeholder="su nombre" required>
-                    
-                    </div>
-    
+            
+                            <div class="form-group">
+                                <div class="letra" cellspacing="0" cellpadding="0">nombre </div>
+            
+                                <input type="text" id="nombre" name="nombre" class="caja" required>
+            
+                            </div>
+            
+            
+                            <div class="form-group">
+            
+                                <div class="letra">apellido</div>
+            
+                                <input type="text" id="apellido" name="apellido" class="caja" required>
+            
+                            </div>
+            
+            
+                            <div class="form-group">
+            
+                                    <label class="letra">motivo de contacto</label>
 
-                    <div class="form-groups">
-                            <label class="letras">primer apellido</label>
-
-                            <input type="text" name="apellido" class="cajas" placeholder="su nombre" required>
-                    
-                    </div>
-    
-    
-                    <div class="form-groups">
-                            <label class="letras">motivo de contacto</label>
-
-                            <select class="cajas" >
-                                    <option value="cotizacion">cotizacion</option>
-                                    <option value="compra">compra</option>
-                                    <option value="otro">otro</option>
-                                </select>
-                      
-                    </div>
-    
-                    <div class="form-groups">
-                            <label class="letras">primer apellido</label>
-
-                            <input type="text" name="apellido" class="cajas" placeholder="su nombre" required>
-                    
-                    </div>
-                    <div class="buttons">
-                      <input type="submit" class="btn btn-primary" style=" width: 120px; margin:0 auto;">
-                    </div>
-    
-                </fieldset>
+                                    <select class="caja" >
+                                            <option value="cotizacion">cotizacion</option>
+                                            <option value="compra">compra</option>
+                                            <option value="otro">otro</option>
+                                        </select>
+                            </div>
+            
+            
+                            <div class="form-group">
+            
+                                <div class="letra">contrasena</div>
+            
+                                <input type="text" id="pass" name="pass" class="caja" minlength="8" maxlength="12" required>
+            
+                            </div>
+            
+            
+                            <div class="button">
+                                <input type="submit" class="btn btn-primary" style=" width: 120px; margin:0 auto;" value="Registrar">
+                            </div>
+            
+                        </fieldset>
     
     
             </form>
@@ -108,5 +126,10 @@
 </footer>
 
 </html>
+
+
+
+
+
 
 

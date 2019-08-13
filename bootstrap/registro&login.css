@@ -105,36 +105,30 @@ input:valid {
     width: auto;
 }
 
-
-.letras {
-    color: #24292e!important;
+.phone{
+    margin: 12px;
+    width: 10%;
+    margin: 12px;
 }
+.nomphone{
+    font-size: 20px;
+    position: absolute;
 
-.cajas {
+}
+.location{
+    margin: 12px;
+    width: 10%;
+    margin: 12px;
+}
+.nomlocation{
+    font-size: 20px;
+    position: absolute;
+}
+.ubicacion{
+    margin: 12px;
     width: 250px;
-    height: auto;
-    padding: 6px 10px;
-    border: PowderBlue 1px solid;
-    border-radius: 5px;
-    margin: 1px 5px;
-}
-
-.form-groups {
-    margin: 15px auto;
-    text-align: center;
-}
-input:valid {
-    border: 1px solid green;
-}
-
-.cuadros {
-    border: rgb(170, 167, 167) 1px solid;
-    border-radius: 15px;
-}
-
-.buttons {
-    width: 120px;
-    margin: 0 auto;
+    position: absolute;
+    font-size: 25px;
 }
 .linea1{
     margin: 10px 300;
