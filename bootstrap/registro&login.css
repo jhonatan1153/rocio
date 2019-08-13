@@ -1,0 +1,178 @@
+@media only screen and (min-width: 1200px) {
+    .color {
+        background-position: auto;
+        margin: 0;
+        padding: 20px 300px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+    .color {
+        background-position: auto;
+        margin: 0;
+        padding: 30px 200px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 900px) {
+    .color {
+        background-position: auto;
+        margin: 85px 30px;
+    }
+}
+
+.titulo {
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fondo {
+    background: #007bff;
+    height: 40px;
+    width: auto;
+}
+
+
+.letra {
+    color: #24292e!important;
+}
+
+.caja {
+    width: 250px;
+    height: auto;
+    padding: 3px 10px;
+    border: PowderBlue 1px solid;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin: 15px auto;
+    text-align: center;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+.cuadro {
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.button {
+    width: 120px;
+    margin: 0 auto;
+}
+
+/*   LOGIN INTERFACES  */
+
+@media only screen and (min-width: 1200px) {
+    .colores {
+        background-position: left;
+        margin-left: 70%;
+        padding: 30px 50px;
+
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+    .colores {
+        background-position: auto;
+        margin: 0;
+        padding: 30px 200px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 900px) {
+    .colores {
+        background-position: auto;
+        margin: 85px 30px;
+    }
+}
+
+.titulos {
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fondos {
+    background: #007bff;
+    height: 40px;
+    width: auto;
+}
+
+
+.letras {
+    color: #24292e!important;
+}
+
+.cajas {
+    width: 250px;
+    height: auto;
+    padding: 6px 10px;
+    border: PowderBlue 1px solid;
+    border-radius: 5px;
+    margin: 1px 5px;
+}
+
+.form-groups {
+    margin: 15px auto;
+    text-align: center;
+}
+input:valid {
+    border: 1px solid green;
+}
+
+.cuadros {
+    border: rgb(170, 167, 167) 1px solid;
+    border-radius: 15px;
+}
+
+.buttons {
+    width: 120px;
+    margin: 0 auto;
+}
+.linea1{
+    margin: 10px 300;
+    padding: 0px;
+    position: absolute;
+    background: rgb(153, 153, 153);
+    width: 1px;
+    height: 500px;
+}
+.linea2{
+    margin: 10px 800;
+    padding: 0px;
+    position: absolute;
+    background: rgb(153, 153, 153);
+    width: 1px;
+    height: 500px;
+}
+
+/*  INTERFAZ HEAD BODY FOOLDERS */
+
+.contacto {
+    background:black;
+    height: 350px;
+    width: 100%;
+}
+
+.info {
+    background: blue;
+    height: 450px;
+    width: 100%;
+    
+}
+
+
+.inferior {
+    background: rgb(209, 209, 209);
+    height: 90%;
+    width: 100%;
+    
+
+}
