@@ -1,78 +1,82 @@
 /* desktop */
+
 @media screen and (min-width: 1200px) {
-
-  span.despegable{
-    display: none;
-  }
+    span.despegable {
+        display: none;
+    }
 }
+
+
 /* tablet*/
+
 @media only screen and (min-width: 901px) and (max-width: 1080px) {
-
-  span.despegable{
-    display: none;
-  }
-
-  .superior{
-    background: rgb(54, 120, 196);
-    padding: 40px 30px;
-  }
-
-  div.btn-group .button {
-    font-size: 40px;
-    padding: 20px;
-
-  }
-  a.img{
-    display: none;
-  }
-  div.slider{
-    padding: auto;
-    margin: auto ;
-    height: 100%;
-    width: 100%;
-  }
-  
-
+    span.despegable {
+        display: none;
+    }
+    .superior {
+        background: rgb(54, 120, 196);
+        padding: 40px 30px;
+    }
+    div.btn-group .button {
+        font-size: 40px;
+        padding: 20px;
+    }
+    a.img {
+        display: none;
+    }
+    div.slider {
+        padding: auto;
+        margin: auto;
+        height: 500px;
+        width: 143%;
+    }
 }
+
+
 /* phone */
+
 @media only screen and (min-width: 100px) and (max-width: 900px) {
-  div.btn-group{
-    display: none;
-  }
-
-   span.despegable{
-    float: right;
-  }
-
+    div.btn-group {
+        display: none;
+    }
+    span.despegable {
+        float: right;
+    }
+    div.slider {
+        padding: auto;
+        margin: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: auto;
+        width: 109%;
+    }
 }
 
-
-
-.superior{
+.superior {
     background: rgb(54, 120, 196);
-    
-    
-    
 }
+
 .btn-group .button {
-    background-color: rgb(54, 120, 196); /* Green */
+    background-color: rgb(54, 120, 196);
+    /* Green */
     color: white;
     padding: 500px;
     font-size: 20px;
     cursor: pointer;
+}
 
-  }
-  .btn-group .button {
+.btn-group .button {
     padding: 20px;
+}
 
-  }
-  
-  .btn-group .button:hover {
+.btn-group .button:hover {
     background-color: #2a39bb;
-  }
+}
 
-  .img{
-    background:url('../public/images/logo.jpg');
+.img {
+    background: url('../public/images/logo.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,79 +84,93 @@
     border: none;
     color: white;
     padding: 15px 62px;
-    display:flex;
+    display: flex;
     margin: 10px;
     display: inline-block;
     cursor: pointer;
     margin-left: auto;
-  }
+}
 
-  .slider {
-   
+.slider {
     margin: auto;
     overflow: hidden;
-  }
-  
-  .slider ul {
+    width: 659px;
+    height: 100%;
+}
+
+.slider ul {
     display: flex;
     padding: 0;
     width: 400%;
-  
-    
     animation: cambio 20s infinite alternate linear;
-  }
-  
-  .slider li {
+}
+
+.slider li {
     width: 100%;
     list-style: none;
-  }
-  
-  .slider img {
-    width: 100%;
+}
 
-  }
-  
-  @keyframes cambio {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-    
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-    
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-    
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-    
-  }
-  .boton{
-    background:#2abbbb;
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.boton {
+    background: #2abbbb;
     color: black;
     border: none;
     width: 150px;
-    padding: 13.8px; 
-     font-size: 15px;
-  }
-  .links a{
+    padding: 13.8px;
+    font-size: 15px;
+}
+
+.links a {
     text-decoration: none;
-    color:white;
+    color: white;
     padding: 20px;
     display: block;
-  }
-  .links{
-    background-color:rgb(54, 120, 196);
+}
+
+.links {
+    background-color: rgb(54, 120, 196);
     width: 150px;
     display: none;
-    
-  } 
-  .links a:hover{
-    background-color: #f1f1f1;
+}
 
-  }
-  .despegable:hover .links{
+.links a:hover {
+    background-color: #f1f1f1;
+}
+
+.despegable:hover .links {
     display: block;
-  }
-  .despegable{
+}
+
+.despegable {
     position: absolute;
-  }
+}
