@@ -48,6 +48,14 @@
     
     </body>
 
+<div class="container">
+  <div class="row">
+    <div class="col-6" style="background:black;">
+     </div>
+
+<div class="col-6">
+
+
     <div class="slider">
 			<ul>
 				<li>
@@ -65,5 +73,11 @@
 </li>
 			</ul>
 		</div>
+
+    </div>
+
+  </div>
+</div>
+
 
 </html>
