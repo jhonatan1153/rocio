@@ -9,7 +9,7 @@
      $correo = $_POST["correo"];
      $pass = $_POST["pass"];
 
-     
+
     ?>
 
     <head>
@@ -26,7 +26,7 @@
             <div class="btn-group">
                    <a class="button" href="#">inicio</a>
                     <a class="button" href="catalogo.html">nuestro catalogo</a>
-                    <a class="button" href="#">contactenos</a>   
+                    <a class="button" href="contacto.html">contactenos</a>   
                     <a class="button" href="registro.html" >registro</a>
                     <a class="button" href="login.html" >login</a>  
              </div>
@@ -39,7 +39,7 @@
                       <div class="links">
                         <a href="#">inicio</a>
                           <a href="catalogo.html">nuestro catalogo</a>
-                          <a href="#">contactenos</a>   
+                          <a href="contacto.html">contactenos</a>   
                           <a href="registro.html" >registro</a>
                           <a href="login.html" >login</a>  
                       <div>
