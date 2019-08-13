@@ -1,13 +1,16 @@
+
 @media only screen and (min-width: 1200px) {
-    .color {
-        background-position: auto;
-        margin: 0;
-        padding: 20px 300px;
+    .colores {
+        background-position: left;
+        margin-left: 70%;
+        padding: 30px 50px;
+
     }
+ 
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1100px) {
-    .color {
+    .colores {
         background-position: auto;
         margin: 0;
         padding: 30px 200px;
@@ -15,28 +18,10 @@
 }
 
 @media only screen and (min-width: 100px) and (max-width: 900px) {
-    .color {
+    .colores {
         background-position: auto;
         margin: 85px 30px;
     }
-}
-
-.titulo {
-    background-color: #007bff;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.fondo {
-    background: #007bff;
-    height: 40px;
-    width: auto;
-}
-
-
-.letra {
-    color: #24292e!important;
 }
 .textarea{
     width: 250px;
@@ -46,13 +31,8 @@
     border-radius: 5px;
     font-size: 15px;
 }
-
-.caja {
-    width: 250px;
-    height: auto;
-    padding: 3px 10px;
-    border: PowderBlue 1px solid;
-    border-radius: 5px;
+.letra {
+    color: #24292e!important;
 }
 
 .form-group {
@@ -69,48 +49,13 @@ input:valid {
     border-radius: 5px;
 }
 
-.button {
-    width: 120px;
-    margin: 0 auto;
-}
 
-/*   LOGIN INTERFACES  */
-
-@media only screen and (min-width: 1200px) {
-    .colores {
-        background-position: left;
-        margin-left: 70%;
-        padding: 30px 50px;
-
-    }
-}
-
-@media only screen and (min-width: 901px) and (max-width: 1100px) {
-    .colores {
-        background-position: auto;
-        margin: 0;
-        padding: 30px 200px;
-    }
-}
-
-@media only screen and (min-width: 100px) and (max-width: 900px) {
-    .colores {
-        background-position: auto;
-        margin: 85px 30px;
-    }
-}
-
-.titulos {
-    background-color: #007bff;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.fondos {
-    background: #007bff;
-    height: 40px;
-    width: auto;
+.caja {
+    width: 250px;
+    height: auto;
+    padding: 3px 10px;
+    border: PowderBlue 1px solid;
+    border-radius: 5px;
 }
 
 .phone{
@@ -155,7 +100,8 @@ input:valid {
     height: 500px;
 }
 
-/*  INTERFAZ HEAD BODY FOOLDERS */
+/*
+/*  INTERFAZ HEAD BODY FOOLDERS 
 
 .contacto {
     background:black;
