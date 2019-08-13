@@ -8,6 +8,8 @@
      $apellido = $_POST["apellido"];
      $correo = $_POST["correo"];
      $pass = $_POST["pass"];
+
+     
     ?>
 
     <head>
