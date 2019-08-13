@@ -1,26 +1,53 @@
 
 @media only screen and (min-width: 1200px) {
     .colores {
-        background-position: left;
+        background-position: auto;
         margin-left: 70%;
         padding: 30px 50px;
 
     }
- 
+    .ubicacion{
+        background-position: auto;
+        margin-left: 70%;
+        padding: 30px 50px;
+    }
+
 }
 
-@media only screen and (min-width: 901px) and (max-width: 1100px) {
+@media only screen and (min-width: 881px) and (max-width: 1199px) {
     .colores {
         background-position: auto;
         margin: 0;
         padding: 30px 200px;
     }
+    .ubicacion{
+        background-position: auto;
+        margin: 0;
+        padding: 500px 300px;
+    }
+    .linea1{
+        display: none;
+    }
+    .linea2{
+        display: none;
+    }
 }
 
-@media only screen and (min-width: 100px) and (max-width: 900px) {
+@media only screen and (min-width: 100px) and (max-width: 880px) {
     .colores {
         background-position: auto;
         margin: 85px 30px;
+    }
+    .ubicacion{
+        background-position: auto;
+        margin: 0;
+        padding: 500px 20px;
+    }
+    .linea1{
+        display: none;
+    }
+    .linea2{
+        display: none;
     }
 }
 .textarea{
@@ -49,7 +76,10 @@ input:valid {
     border-radius: 5px;
 }
 
-
+.enviar {
+    width: 120px;
+    margin: 0 auto;
+}
 .caja {
     width: 250px;
     height: auto;
@@ -60,22 +90,22 @@ input:valid {
 
 .phone{
     margin: 12px;
-    width: 10%;
-    margin: 12px;
+    width: 15%;
+    
+
 }
 .nomphone{
     font-size: 20px;
-    position: absolute;
 
 }
 .location{
+    width: 15%;
     margin: 12px;
-    width: 10%;
-    margin: 12px;
+    
 }
 .nomlocation{
     font-size: 20px;
-    position: absolute;
+
 }
 .ubicacion{
     margin: 12px;
@@ -84,12 +114,12 @@ input:valid {
     font-size: 25px;
 }
 .linea1{
-    margin: 10px 300;
+    margin: 10px 370px;
     padding: 0px;
     position: absolute;
     background: rgb(153, 153, 153);
     width: 1px;
-    height: 500px;
+    height: 700px;
 }
 .linea2{
     margin: 10px 800;
@@ -97,30 +127,5 @@ input:valid {
     position: absolute;
     background: rgb(153, 153, 153);
     width: 1px;
-    height: 500px;
-}
-
-/*
-/*  INTERFAZ HEAD BODY FOOLDERS 
-
-.contacto {
-    background:black;
-    height: 350px;
-    width: 100%;
-}
-
-.info {
-    background: blue;
-    height: 450px;
-    width: 100%;
-    
-}
-
-
-.inferior {
-    background: rgb(209, 209, 209);
-    height: 90%;
-    width: 100%;
-    
-
+    height: 700px;
 }
