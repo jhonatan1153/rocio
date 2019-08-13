@@ -1,7 +1,3 @@
-
-
-
-
 <html>
    
     <?php
@@ -15,6 +11,7 @@
    
  
     ?>
+    hola
 <style>
 
   </style>
