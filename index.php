@@ -17,6 +17,7 @@
               
         <link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <meta charset="UTF-8">
     
     </head>
     <body>
@@ -25,10 +26,10 @@
 
             <div class="btn-group">
                    <a class="button" href="#">inicio</a>
-                    <a class="button" href="catalogo.html">nuestro catalogo</a>
-                    <a class="button" href="contacto.html">contactenos</a>   
-                    <a class="button" href="registro.html" >registro</a>
-                    <a class="button" href="login.html" >login</a>  
+                    <a class="button" href="catalogo.php">nuestro catalogo</a>
+                    <a class="button" href="contacto.php">contactenos</a>   
+                    <a class="button" href="registro.php" >registro</a>
+                    <a class="button" href="login.php" >login</a>  
              </div>
 
              <a class ="img" href=""></a>
@@ -38,10 +39,10 @@
                     <button class="boton">MENU</button>
                       <div class="links">
                         <a href="#">inicio</a>
-                          <a href="catalogo.html">nuestro catalogo</a>
-                          <a href="contacto.html">contactenos</a>   
-                          <a href="registro.html" >registro</a>
-                          <a href="login.html" >login</a>  
+                          <a href="catalogo.php">nuestro catalogo</a>
+                          <a href="contacto.php">contactenos</a>   
+                          <a href="registro.php" >registro</a>
+                          <a href="login.php" >login</a>  
                       <div>
                 </span>
 

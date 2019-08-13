@@ -6,17 +6,18 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 </head>
 
 <body>
     <header class="superior">
 
         <div class="btn-group">
-            <a class="button" href="#">inicio</a>
-            <a class="button" href="catalogo.html">nuestro catalogo</a>
-            <a class="button" href="#">contactenos</a>
-            <a class="button" href="registro.html">registro</a>
-            <a class="button" href="login.html">login</a>
+            <a class="button" href="index.php">inicio</a>
+            <a class="button" href="catalogo.php">nuestro catalogo</a>
+            <a class="button" href="contacto.php">contactenos</a>
+            <a class="button" href="registro.php">registro</a>
+            <a class="button" href="login.php">login</a>
         </div>
 
         <a class="img" href=""></a>
@@ -24,11 +25,11 @@
         <span class="despegable">
                 <button class="boton">MENU</button>
                   <div class="links">
-                    <a href="#">inicio</a>
-                      <a href="catalogo.html">nuestro catalogo</a>
-                      <a href="#">contactenos</a>   
-                      <a href="registro.html" >registro</a>
-                      <a href="login.html" >login</a>  
+                    <a href="index.php">inicio</a>
+                      <a href="catalogo.php">nuestro catalogo</a>
+                      <a href="contacto.php">contactenos</a>   
+                      <a href="registro.php" >registro</a>
+                      <a href="login.php" >login</a>  
                   <div>
             </span>
 
@@ -67,7 +68,7 @@
     <div class="colores">
             
 
-            <form action="" method="POST" accept-charset="UTF-8">
+            <form action="" method="POST" accept-charset="UTF-8" onclick="listo" id="formulario">
                     
                     <legend>Contactenos</legend>
 
@@ -76,7 +77,7 @@
 
             
                             <div class="form-group">
-                                <div class="letra" cellspacing="0" cellpadding="0">nombre </div>
+                                <div class="letra" >nombre *</div>
             
                                 <input type="text" id="nombre" name="nombre" class="caja" required>
             
@@ -85,11 +86,19 @@
             
                             <div class="form-group">
             
-                                <div class="letra">apellido</div>
+                                <div class="letra">apellido *</div>
             
                                 <input type="text" id="apellido" name="apellido" class="caja" required>
             
                             </div>
+
+                            <div class="form-group">
+            
+                                    <div class="letra">numero telefono *</div>
+                
+                                    <input type="text" id="telefono" name="telefono" class="caja" required>
+                
+                                </div>
             
             
                             <div class="form-group">
@@ -106,7 +115,7 @@
             
                             <div class="form-group">
             
-                                <div class="letra">descripcion</div>
+                                <div class="letra">descripcion *</div>
             
                                 <textarea id="descripcion" name="descripcion" class="textarea" minlength="1" maxlength="250" required></textarea>
             
