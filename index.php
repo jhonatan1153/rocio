@@ -8,30 +8,18 @@
      $apellido = $_POST["apellido"];
      $correo = $_POST["correo"];
      $pass = $_POST["pass"];
-   
- 
     ?>
-    hola
-<style>
 
-  </style>
     <head>
             <title>ROCIO</title>
-            
-            
+              
         <link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-
-   
-            
+    
     </head>
     <body>
-  
-    
 
     <header class="superior"> 
-
-   
 
             <div class="btn-group">
                    <a class="button" href="#">inicio</a>
