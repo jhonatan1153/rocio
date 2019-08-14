@@ -94,7 +94,8 @@
 -Marqueteria en general<BR><BR>
 
 
-Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali y ofrecemos nuestro servicios a domicilios.
+Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali.
+<BR>Ofrecemos nuestro servicios a domicilios.
 
 </h4>
 
@@ -206,8 +207,8 @@ Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali y
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  <div class="footer-copyright text-center py-3">© 2019 
+
   </div>
   <!-- Copyright -->
 
