@@ -3,7 +3,7 @@
 @media screen and (min-width: 1200px) {
     span.despegable {
         display: none;
-      }
+    }
 }
 
 
@@ -38,8 +38,11 @@
 @media only screen and (min-width: 100px) and (max-width: 900px) {
 
     span.despegable {
-        
+        float: right;
       position: relative;
+    }
+    .superior{
+        height: 50px;
     }
 
     div.btn-group {
