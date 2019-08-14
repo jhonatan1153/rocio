@@ -81,7 +81,22 @@
   <div class="row" >
     <div class="col-sm-6">
       <br>
-<H1 class="text-center text-secondary"><strong>VIDRIOS Y ALUMINIO LA 43</strong></H1>
+<H1 class="text-center "><strong>VIDRIOS Y ALUMINIO LA 43</strong></H1>
+<br>
+
+<h4>En vidrios y aluminio la 43 trabajamos todo lo relacionado con:<BR><BR>
+
+-Vidrios para construccion y muebles<BR>
+-Espejos en todos los tamaños y calibres<BR>
+-Muebles modulares en vidrio <BR>
+-Devisiones de baño <BR>
+-Todo lo relacionado en aluminio (pollos de cocina,gabinetes de baño,etc)<BR>
+-Marqueteria en general<BR><BR>
+
+
+Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali y ofrecemos nuestro servicios a domicilios.
+
+</h4>
 
 
     </div>
@@ -90,7 +105,7 @@
        <div class="col-sm-6">
     <center>
       <BR>
-        <BR>
+      <BR>
 
     <div class="slider">
 			<ul>
@@ -116,7 +131,105 @@
 </div>
 
 
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-primary pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+        
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript">
 $('#myCollapsible').on('hidden.bs.collapse', function () {
   // do something…
