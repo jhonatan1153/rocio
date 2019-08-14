@@ -1,9 +1,7 @@
 <html>
    
     <?php
-
     error_reporting(0);
-
      $nombre = $_POST["nombre"];
      $apellido = $_POST["apellido"];
      $correo = $_POST["correo"];
@@ -20,27 +18,30 @@
         <meta charset="UTF-8">
     </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">VIDRIOS LA 43</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+ 
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbar1">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      <li class="nav-item active ">
+        <a class="nav-link" href="#" style="font-size:22px"><strong>Inicio </strong><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="catalogo.php">Nuestros productos</a>
+        <a class="nav-link" href="catalogo.php"style="font-size:22px"><strong> Nuestros productos</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contacto.php">Contáctenos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="contacto.php"style="font-size:22px"><strong> Contáctenos</strong></a>
       </li>
     </ul>
   </div>
+
+
+   <a class="navbar-brand " href="#"><strong><h4 class="font-weight-bold">VIDRIOS LA 43</h4></strong></a>
+  <img src="public/images/logo.png" class="img-fluid float-right" width="55" alt="Responsive image">
+
 </nav>
 
 
@@ -86,7 +87,7 @@
 
 
        <div class="col-sm-6">
-    
+    <center>
 
     <div class="slider">
 			<ul>
@@ -105,7 +106,7 @@
 </li>
 			</ul>
 		</div>
-
+</center>
     </div>
 
   </div>
