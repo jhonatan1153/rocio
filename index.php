@@ -27,13 +27,13 @@
   <div class="collapse navbar-collapse" id="navbar1">
     <ul class="navbar-nav">
       <li class="nav-item active ">
-        <a class="nav-link" href="#" style="font-size:22px"><strong>Inicio </strong><span class="sr-only">(current)</span></a>
+        <a class="nav-link text-light" href="#" style="font-size:22px"><strong>Inicio </strong><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="catalogo.php"style="font-size:22px"><strong> Nuestros productos</strong></a>
+        <a class="nav-link text-light" href="catalogo.php"style="font-size:22px"><strong> Nuestros productos</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contacto.php"style="font-size:22px"><strong> Contáctenos</strong></a>
+        <a class="nav-link text-light" href="contacto.php"style="font-size:22px"><strong> Contáctenos</strong></a>
       </li>
     </ul>
   </div>
@@ -80,6 +80,7 @@
 <div class="container" style="background:#E5ECEA;">
   <div class="row" >
     <div class="col-sm-6">
+      <br>
 <H1 class="text-center text-secondary"><strong>VIDRIOS Y ALUMINIO LA 43</strong></H1>
 
 
@@ -88,21 +89,23 @@
 
        <div class="col-sm-6">
     <center>
+      <BR>
+        <BR>
 
     <div class="slider">
 			<ul>
 				<li>
-  <img src="public/images/banner.jpg" style="height: 550px; width: 70%;" alt="">
+  <img src="public/images/banner.jpg" style="height: 500px; width: 70%;" alt="">
  </li>
  
 				<li>
-  <img src="public/images/espejolindo.jpg" style="height: 550px; width: 70%;" alt="">
+  <img src="public/images/espejolindo.jpg" style="height: 500px; width: 70%;" alt="">
 </li>
 				<li>
-  <img src="public/images/espejo.jpg" style="height: 550px; width: 70%;" alt="">
+  <img src="public/images/espejo.jpg" style="height: 500px; width: 70%;" alt="">
 </li>
 				<li>
-  <img src="public/images/espejo2.jpg" style="height: 550px; width: 70%;" alt="">
+  <img src="public/images/espejo2.jpg" style="height: 500px; width: 70%;" alt="">
 </li>
 			</ul>
 		</div>
