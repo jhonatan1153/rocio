@@ -16,13 +16,13 @@
 @media only screen and (min-width: 881px) and (max-width: 1199px) {
     .colores {
         background-position: auto;
-        margin: 0;
-        padding: 30px 200px;
+        margin: 85px 50px;
+
     }
     .ubicacion{
         background-position: auto;
         margin: 0;
-        padding: 500px 300px;
+        padding: 530px 20px;
     }
     .linea1{
         display: none;
@@ -40,7 +40,7 @@
     .ubicacion{
         background-position: auto;
         margin: 0;
-        padding: 530px 00px;
+        padding: 530px 20px;
     }
     .linea1{
         display: none;
