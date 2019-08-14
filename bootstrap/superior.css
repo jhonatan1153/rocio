@@ -1,6 +1,6 @@
 /* desktop */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1081px) {
     span.despegable {
         display: none;
     }
@@ -60,6 +60,7 @@
         width: 109%;
     }
 }
+
 
 .superior {
     background: rgb(54, 120, 196);
