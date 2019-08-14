@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 1200px) {
     .colores {
         background-position: auto;
@@ -41,7 +40,7 @@
     .ubicacion{
         background-position: auto;
         margin: 0;
-        padding: 500px 20px;
+        padding: 10px auto;
     }
     .linea1{
         display: none;

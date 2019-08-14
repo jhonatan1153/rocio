@@ -3,7 +3,7 @@
 @media screen and (min-width: 1200px) {
     span.despegable {
         display: none;
-    }
+      }
 }
 
 
@@ -12,7 +12,7 @@
 @media only screen and (min-width: 901px) and (max-width: 1080px) {
     span.despegable {
         display: none;
-    }
+      }
     .superior {
         background: rgb(54, 120, 196);
         padding: 40px 30px;
@@ -36,12 +36,16 @@
 /* phone */
 
 @media only screen and (min-width: 100px) and (max-width: 900px) {
+
+    span.despegable {
+        
+      position: relative;
+    }
+
     div.btn-group {
         display: none;
     }
-    span.despegable {
-        float: right;
-    }
+  
     div.slider {
         padding: auto;
         margin: auto;
@@ -83,10 +87,8 @@
     background-size: cover;
     border: none;
     color: white;
-    padding: 15px 62px;
-    display: flex;
-    margin: 10px;
-    display: inline-block;
+    padding: 15px 50px;
+
     cursor: pointer;
     margin-left: auto;
 }

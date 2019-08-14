@@ -26,9 +26,7 @@
                   <div class="links">
                     <a href="index.php">inicio</a>
                       <a href="catalogo.php">nuestro catalogo</a>
-                      <a href="contacto.php">contactenos</a>   
-                      <a href="registro.php" >registro</a>
-                      <a href="login.php" >login</a>  
+                      <a href="contacto.php">contactenos</a>  
                   <div>
             </span>
 
