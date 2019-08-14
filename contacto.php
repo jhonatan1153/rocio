@@ -100,9 +100,10 @@
             
                             <div class="form-group">
             
-                                    <label class="letra">motivo de contacto</label>
-
+                                    <div class="letra">contacto</div>
+                             
                                     <select class="caja" >
+                                    <option>S</option>
                                             <option value="cotizacion">cotizacion</option>
                                             <option value="compra">compra</option>
                                             <option value="otro">otro</option>
