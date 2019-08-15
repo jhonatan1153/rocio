@@ -3,31 +3,28 @@
         background-position: auto;
         margin-left: 70%;
         padding: 30px 50px;
-
     }
-    .ubicacion{
+    .ubicacion {
         background-position: auto;
         margin-left: 70%;
         padding: 30px 50px;
     }
-
 }
 
 @media only screen and (min-width: 881px) and (max-width: 1199px) {
     .colores {
         background-position: auto;
         margin: 85px 50px;
-
     }
-    .ubicacion{
+    .ubicacion {
         background-position: auto;
         margin: 0;
         padding: 530px 20px;
     }
-    .linea1{
+    .linea1 {
         display: none;
     }
-    .linea2{
+    .linea2 {
         display: none;
     }
 }
@@ -37,19 +34,20 @@
         background-position: auto;
         margin: 85px 30px;
     }
-    .ubicacion{
+    .ubicacion {
         background-position: auto;
         margin: 0;
         padding: 530px 20px;
     }
-    .linea1{
+    .linea1 {
         display: none;
     }
-    .linea2{
+    .linea2 {
         display: none;
     }
 }
-.textarea{
+
+.textarea {
     width: 250px;
     height: 100px;
     padding: 3px 10px;
@@ -57,6 +55,7 @@
     border-radius: 5px;
     font-size: 15px;
 }
+
 .letra {
     color: #24292e!important;
 }
@@ -79,6 +78,7 @@ input:valid {
     width: 120px;
     margin: 0 auto;
 }
+
 .caja {
     width: 250px;
     height: auto;
@@ -87,44 +87,45 @@ input:valid {
     border-radius: 5px;
 }
 
-.phone{
+.phone {
     margin: 12px;
     width: 15%;
-    
-
 }
-.nomphone{
+
+.nomphone {
     font-size: 20px;
-
 }
-.location{
+
+.location {
     width: 15%;
     margin: 12px;
-    
 }
-.nomlocation{
-    font-size: 20px;
 
+.nomlocation {
+    font-size: 20px;
 }
-.ubicacion{
+
+.ubicacion {
     margin: 12px;
     width: 250px;
     position: absolute;
     font-size: 25px;
 }
-.linea1{
+
+.linea1 {
     margin: 10px 370px;
     padding: 0px;
     position: absolute;
     background: rgb(153, 153, 153);
     width: 1px;
-    height: 700px;
+    height: 592px;
 }
-.linea2{
+
+.linea2 {
     margin: 10px 800;
     padding: 0px;
     position: absolute;
     background: rgb(153, 153, 153);
     width: 1px;
-    height: 700px;
+    height: 592px;
 }
