@@ -17,9 +17,6 @@
 -Devisiones de baño <BR>
 -Todo lo relacionado en aluminio (pollos de cocina,gabinetes de baño,etc)<BR>
 -Marqueteria en general<BR><BR>
-
-
-Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali.
 <BR>Ofrecemos nuestro servicios a domicilios.
 
 </h4>
