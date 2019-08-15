@@ -121,14 +121,13 @@
             
                         </fieldset>
             </form>
+
+            <a href="https://wa.me/573122832996?text=hola%20me%20gustaria%20hacer%20una%20cotizacion" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+	
         </div>
-        
+       
 </footer>
 
-<body>
-	<a href="https://wa.me/573122832996?text=hola%20me%20gustaria%20hacer%20una%20cotizacion" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-	
-</body>
 </html>
 
 
