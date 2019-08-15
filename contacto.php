@@ -6,6 +6,7 @@
 
         
         <div class="linea1"></div>
+
         <div class="ubicacion">
         
         <label>informacion de contacto</label>
@@ -29,6 +30,7 @@
         
         
         <div class="linea2"></div> 
+        
       
     <div class="colores">
             
