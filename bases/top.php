@@ -10,13 +10,6 @@
 
 <head>
             <title>ROCIO</title>   
-            <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-        <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
-        <meta charset="UTF-8">
-
     <link rel="stylesheet" type="text/css" href="bootstrap/contacto.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">

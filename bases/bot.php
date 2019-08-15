@@ -17,7 +17,7 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019 
+  <div class="footer-copyright text-center py-5">© 2019 
 
   </div>
   <!-- Copyright -->
