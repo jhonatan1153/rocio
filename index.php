@@ -36,9 +36,6 @@ include "bases/top.php";
 
 
 
-
-
-
 <?php
 include "bases/bot.php";
 ?>
