@@ -1,5 +1,30 @@
-
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 <nav class="info">
+
+
+<style>
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+</style>
+
+
 
 </nav>
 <footer class="inferior">
@@ -100,6 +125,10 @@
         
 </footer>
 
+<body>
+	<a href="https://wa.me/573122832996?text=hola%20me%20gustaria%20hacer%20una%20cotizacion" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+	
+</body>
 </html>
 
 
