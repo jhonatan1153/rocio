@@ -47,36 +47,7 @@
 
 
 
-   <!-- <header class="superior"> 
-
-            <div class="btn-group">
-                   <a class="button" href="#">inicio</a>
-                    <a class="button" href="catalogo.php">nuestro productos</a>
-                    <a class="button" href="contacto.php">contactenos</a>  
-
-             </div>
-
-            <!-- <a class ="img aling-left" href=""></a> -->
-             <!--<img src="public/images/logo.png" class="img-fluid float-right" width="60" alt="Responsive image">-->
-
-
-<!--
-
-             <span class="despegable">
-                    <button class="boton">MENU</button>
-                      <div class="links">
-                        <a href="#">inicio</a>
-                          <a href="catalogo.php">nuestro catalogo</a>
-                          <a href="contacto.php">contactenos</a>   
-                          <a href="registro.php" >registro</a>
-                          <a href="login.php" >login</a>  
-                      <div>
-                </span>
-
-                
-    </header>
-   -->
-
+<body>
 <div class="container" style="background:#E5ECEA;">
   <div class="row" >
     <div class="col-sm-6">
@@ -131,7 +102,7 @@ Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali.
   </div>
 </div>
 
-
+</body>
 
 
 
@@ -144,61 +115,7 @@ Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali.
     <!-- Grid row -->
     <div class="row">
 
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
 
-        <!-- Content -->
-        <h5 class="text-uppercase">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-         
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-        
-        </ul>
-
-      </div>
-      <!-- Grid column -->
 
     </div>
     <!-- Grid row -->
@@ -215,17 +132,7 @@ Estamos ubicados en la Cra.43 No.45-57 B/republica de israel en la ciudad cali.
 </footer>
 <!-- Footer -->
 
-
-
-
-
 </html>
-
-
-
-
-
-
 
 
 
