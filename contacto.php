@@ -33,8 +33,9 @@
         <div class="linea1"></div>
 
         <div class="ubicacion">
-        
+
         <label>informacion de contacto</label>
+
         
         <img src="public/images/phone.png" class="phone">
 
@@ -49,7 +50,7 @@
 
         <label class="nomlocation">B/ republica de israel</label>
         <label class="nomlocation">Dirrecion Cra.43 No 45-57</label>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.4532080547947!2d-76.51241798585883!3d3.405555397521129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6d317383119%3A0x9593bbb03c92014e!2sCra.+43+%2345-57%2C+Cali%2C+Valle+del+Cauca!5e1!3m2!1ses-419!2sco!4v1565833696178!5m2!1ses-419!2sco" width="300" height="140" frameborder="0" style="border:0; position: relative;" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.4532080547947!2d-76.51241798585883!3d3.405555397521129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6d317383119%3A0x9593bbb03c92014e!2sCra.+43+%2345-57%2C+Cali%2C+Valle+del+Cauca!5e1!3m2!1ses-419!2sco!4v1565833696178!5m2!1ses-419!2sco" width="300" height="140" frameborder="0" style="border:0; position: ;" allowfullscreen></iframe>
 
         </div>
         

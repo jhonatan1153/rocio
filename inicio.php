@@ -2,6 +2,7 @@
 
    
 <body>
+<link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
 <div class="container" style="background:#E5ECEA;">
   <div class="row" >
     <div class="col-sm-6">
@@ -33,17 +34,17 @@
     <div class="slider">
 			<ul>
 				<li>
-  <img src="public/images/banner.jpg" style="height: 500px; width: 70%;" alt="">
+  <img src="public/images/banner.jpg" style="height: 500px; width: 100%;" alt="">
  </li>
  
 				<li>
-  <img src="public/images/espejolindo.jpg" style="height: 500px; width: 70%;" alt="">
+  <img src="public/images/espejolindo.jpg" style="height: 500px; width: 100%;" alt="">
 </li>
 				<li>
-  <img src="public/images/espejo.jpg" style="height: 500px; width: 70%;" alt="">
+  <img src="public/images/espejo.jpg" style="height: 500px; width: 100%;" alt="">
 </li>
 				<li>
-  <img src="public/images/espejo2.jpg" style="height: 500px; width: 70%;" alt="">
+  <img src="public/images/espejo2.jpg" style="height: 500px; width: 100%;" alt="">
 </li>
 			</ul>
 		</div>

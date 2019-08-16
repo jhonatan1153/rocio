@@ -11,7 +11,7 @@
 <head>
             <title>ROCIO</title>   
     <link rel="stylesheet" type="text/css" href="bootstrap/contacto.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/superior.css">
+    
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
      <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
@@ -43,10 +43,13 @@
         <a class="nav-link text-light" href='index.php?p=inicio' style="font-size:22px"><strong>Inicio </strong><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href='index.php?p=productos'style="font-size:22px"><strong> Nuestros productos</strong></a>
+        <a class="nav-link text-light" href='index.php?p=productos'style="font-size:22px"><strong>Nuestros productos</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href='index.php?p=contac'style="font-size:22px"><strong> Contáctenos</strong></a>
+        <a class="nav-link text-light" href='index.php?p=contacto'style="font-size:22px"><strong>Contáctenos</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href='index.php?p=nosotros'style="font-size:22px"><strong>Sobre Nosotros</strong></a>
       </li>
     </ul>
   </div>

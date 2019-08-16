@@ -21,9 +21,14 @@ include "bases/top.php";
      
         include "catalogo.php";
      
-      }else if ($_GET['p']=='contac') {
+      }else if ($_GET['p']=='contacto') {
          
         include "contacto.php";
+     
+      }
+      else if ($_GET['p']=='nosotros') {
+         
+        include "nosotros.php";
      
       }
    }else{
