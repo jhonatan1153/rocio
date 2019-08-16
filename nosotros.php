@@ -34,17 +34,24 @@ font-size: 20px;
   <img src="public/images/espejo2.jpg" style="height: 500px; width: 100%;" alt="">
 </li>
 			</ul>
-		</div>
-        <strong>Vidrios la 43</strong>
+
+<strong>Vidrios la 43</strong>
 <div class="parrafo">
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 </div>
-
+        
 <div class="titulo">
 <strong>Cotiza con nosotros sin compromiso</strong>
 </div>
 
+
 <div class="parrafo">
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 </div>
+
+</div>
+        
+
+
+
 
