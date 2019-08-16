@@ -13,7 +13,7 @@ font-size: 20px;
 <link rel="stylesheet" type="text/css" href="bootstrap/nostros.css">
 <div class="titulo">
 
-<strong>Quienes somo</strong>
+<strong>Quienes somos</strong>
 
 </div>
 
