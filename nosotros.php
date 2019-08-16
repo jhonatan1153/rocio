@@ -14,42 +14,21 @@ font-size: 20px;
 <div class="titulo">
 
 <strong>Quienes somos</strong>
-
-</div>
-
-
-<div class="slider">
-			<ul>
-				<li>
-  <img src="public/images/banner.jpg" style="height: 500px; width: 100%;" alt="">
- </li>
- 
-				<li>
-  <img src="public/images/espejolindo.jpg" style="height: 500px; width: 100%;" alt="">
-</li>
-				<li>
-  <img src="public/images/espejo.jpg" style="height: 500px; width: 100%;" alt="">
-</li>
-				<li>
-  <img src="public/images/espejo2.jpg" style="height: 500px; width: 100%;" alt="">
-</li>
-			</ul>
-
+<br/>
 <strong>Vidrios la 43</strong>
 <div class="parrafo">
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 </div>
         
 <div class="titulo">
-<strong>Cotiza con nosotros sin compromiso</strong>
+<strong>Contáctenos para cotizarle sin compromiso.</strong>
 </div>
-
 
 <div class="parrafo">
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Si desea mas información, Chatee con nosotros, llámenos o envíenos un correo y le pondremos en contacto con nuestro asesor y representante de ventas.
 </div>
 
-</div>
+
         
 
 
