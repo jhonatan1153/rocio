@@ -21,7 +21,23 @@ include "bases/top.php";
      
         include "catalogo.php";
      
-      }else if ($_GET['p']=='contacto') {
+      }
+       else if ($_GET['p']=='vidrios') {
+     
+        include "vidrios.php";
+     
+      }
+      else if ($_GET['p']=='baño') {
+     
+        include "baños.php";
+     
+      }
+      else if ($_GET['p']=='meson') {
+     
+        include "mezon.php";
+     
+      }
+      else if ($_GET['p']=='contacto') {
          
         include "contacto.php";
      
