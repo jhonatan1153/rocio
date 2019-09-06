@@ -12,22 +12,25 @@ font-size: 20px;
 </style>
 <link rel="stylesheet" type="text/css" href="bootstrap/nostros.css">
 <div class="titulo">
+<center>
+<h2>Quienes somos</h2>
 
-<strong>Quienes somos</strong>
-<br/>
-<strong>Vidrios la 43</strong>
+<br/><br/>
+<strong>MISION</strong>
 <div class="parrafo">
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-</div>
+Entregamos soluciones en vidrio para la vida diaria, con eficiencia y cumplimiento.<br/>
+
+Nuestra prioridad es la seguridad y total satisfacción de los clientes, basados en nuestra avanzada tecnología, agilidad y calidad.
+</div><br/>
         
 <div class="titulo">
-<strong>Contáctenos para cotizarle sin compromiso.</strong>
+<strong>VISION.</strong>
 </div>
-
+Nuestra vision es convetirnos en una vidrieria reconocida en nuestra ciudad, que seamos reconocida por nuestra calidad,seguridad y cumplimiento
 <div class="parrafo">
-Si desea mas información, Chatee con nosotros, llámenos o envíenos un correo y le pondremos en contacto con nuestro asesor y representante de ventas.
-</div>
 
+</div>
+</center>
 
         
 
