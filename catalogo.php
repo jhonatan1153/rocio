@@ -16,7 +16,7 @@
 </div>
 <div class="col-sm-1"></div>
 
-<div class="card col-sm-3" style="width: 12rem;">
+<div class="card col-sm-3" style="width: 18rem;">
   <img class="card-img-top" src="./public/images/divicion.jpg" alt="Card image cap" >
   <div class="card-body">
     <h5 class="card-title">DIVICIONES DE BAÑO</h5>
@@ -28,7 +28,7 @@
 <div class="col-sm-1"></div>
 
 <div class="card col-sm-3" style="width: 18rem;">
-  <img class="card-img-top" src="./public/images/pollos.jpg" alt="Card image cap">
+  <img class="card-img-top" src="./public/images/pollos.jpg" alt="Card image cap" style="width: 220px; ">
   <div class="card-body">
     <h5 class="card-title">POLLOS DE COCINA</h5>
     <p class="card-text "></p>
