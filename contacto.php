@@ -61,7 +61,7 @@
     <div class="colores">
             
 
-            <form action="" method="POST" accept-charset="UTF-8" onclick="listo" id="formulario">
+            <form action="validar.php" method="POST" accept-charset="UTF-8" onclick="listo" id="formulario">
                     
                     <legend>Contactenos</legend>
 
@@ -98,7 +98,7 @@
             
                                     <div class="letra">contacto</div>
                              
-                                    <select class="caja" >
+                                    <select class="caja" name="select">
                                     <option>selecione una opcion</option>
                                             <option value="cotizacion">cotizacion</option>
                                             <option value="compra">compra</option>
@@ -117,19 +117,27 @@
             
             
                             <div class="enviar">
-                                <input type="submit" class="btn btn-primary" style=" width: 120px; margin:0 auto;" value="Enviar">
+                                <input type="submit" class="btn btn-primary" style=" width: 120px; margin:0 auto;" value="Enviar" onclick="myFunction()">
                             </div>
             
                         </fieldset>
             </form>
 
-            <a href="https://wa.me/573122832996?text=hola%20me%20gustaria%20hacer%20una%20cotizacion" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+            <a href="https://wa.me/573122832996?text=hola%20estoy%20interesado%20en%20hacer%20una%20cotizacion" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 	
         </div>
+
+        <script>
+function myFunction() {
+  alert("¡Gracias por contactarnos! Le confirmamos que hemos recibido su información");
+}
+</script>
        
 </footer>
 
 </html>
+
+
 
 
 
